@@ -1,4 +1,4 @@
-.ColorBox {
+/* .ColorBox {
   width: 20%;
   height: 25%;
   margin: 0 auto;
@@ -6,7 +6,7 @@
   position: relative;
   cursor: pointer;
   margin-bottom: -3.5px;
-}
+} */
 
 .SingleColorPalette .ColorBox {
   height: 50%;
@@ -31,6 +31,10 @@
   text-transform: uppercase;
   border: none;
   text-decoration: none;
+}
+
+.ColorBox.go-back {
+  background-color: black;
 }
 
 .copy-button {
@@ -130,8 +134,4 @@
 .copy-msg p {
   font-size: 2rem;
   font-weight: 100;
-}
-
-.ColorBox.go-back {
-  background-color: black;
 }
